@@ -1,0 +1,23 @@
+useReduce() - It is a state management hook that is similar to useState(). The difference is useReduce() is used when the logic of useState() is complex and involves more sub values.
+
+useReduce() has a reducer function which is not a part of functional component. 
+
+const reducer=(state)=>{
+   
+    case '1':
+       return new state
+    case ' ':
+      return new state
+    default:
+      return state
+}
+
+function Demo()
+{
+    const[reducer,dispatch]=useReduce(initialState)
+
+    return(
+        <div>
+        </div>
+    )
+}

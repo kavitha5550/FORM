@@ -7,10 +7,11 @@ import FormData from './FormData';
 import RefDemo from './components/RefDemo';
 import UseRef from './UseRef';
 import Ref from './Ref'
+import ReducerDemo from './components/ReducerDemo';
 function App() {
   return (
     <div className="App">
-    <FormData/>
+    {/* <FormData/> */}
     {/* <EmojiFind/> */}
    {/* <HomePage/> */}
    {/* <UseEffectDemo/> */}
@@ -19,6 +20,7 @@ function App() {
    {/* <UseRef/> */}
    {/* <UseRef/> */}
    {/* <Ref/> */}
+   <ReducerDemo/>
     </div>
   );
 }
